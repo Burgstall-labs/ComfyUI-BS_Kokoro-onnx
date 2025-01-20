@@ -1,0 +1,15 @@
+[project]
+name = "bs_kokoro-onnx"
+description = "A ComfyUI wrapper for [a/Kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx)"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["kokoro-onnx", "onnxruntime", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/Burgstall-labs/ComfyUI-BS_Kokoro-onnx"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-BS_Kokoro-onnx"
+Icon = ""
